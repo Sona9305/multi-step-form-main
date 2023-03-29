@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Multi-step form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="Sidebar">
+        <div class="step">
+          <p>1</p>
+          <div>
+            <p>step 1</p>
+            <h4>YOUR INFO</h4>
+          </div>
+        </div>
+        <div class="step2">
+          <p>2</p>
+          <div>
+            <p>step 2</p>
+            <h4>SELECT PLAN</h4>
+          </div>
+        </div>
+        <div class="step3">
+          <p>3</p>
+          <div>
+            <p>step 3</p>
+            <h4>ADD-ONS</h4>
+          </div>
+        </div>
+        <div class="step4">
+          <p>4</p>
+          <div>
+            <p>step 4</p>
+            <h4>SUMMARY</h4>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <h1>Personal info</h1>
+        <p>please provide your name, email address, and phone number</p>
+        <div class="forms">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Your Name">
+        </div>
+        <div class="forms">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="Email Address">
+        </div>
+        <div class="forms">
+          <label for="number">Phone Numebr</label>
+          <input type="tel" id="number" placeholder="Email Address">
+      </div>
+      <p class="btn-next">Next Step</p>
+    </div>
+  </body>
+</html>
