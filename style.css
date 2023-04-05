@@ -4,9 +4,87 @@
     padding: 0;
 }
 
-.main-container {
+body {
     display: flex;
-    width: 1440px;
-    border: 1px solid black;
+    height: 100vh;
 }
+
+/* ###### DISPLAY ######*/
+.flex {
+    display: flex;
+}
+.align-center {
+    align-items: center;
+}
+.justify-center {
+    justify-content: center;
+}
+
+.main-container {
+    justify-content: space-around;
+    width: 850px;
+    border: 1px solid black;
+    margin: auto;
+    height: 500px;
+    border-radius: 0.6rem;
+}
+
+/* ####### SIDE-BAR ###### */
+.display2, .display3, .display4 {
+    display:none;
+}
+
+.sidebar {
+    flex-direction: column;
+    width: 40%;
+    padding: 1rem;
+}
+
+.side-container {
+    height: 100%;
+    border-radius: 0.6rem;
+    padding-top: 1rem;
+    background: no-repeat center center / cover url(assets/images/bg-sidebar-desktop.svg);
+}
+
+.steps {
+    align-items: center;
+    width: 100%;
+}
+
+.num {
+    border: 1px black solid;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 1rem;
+}
+/* ####### SIDE-BAR ###### */
+
+/* ####### MAIN ###### */
+
+.main {
+    padding-top: 2rem;
+    border: solid black 1px;
+}
+
+h1 {
+    margin-bottom: 0.7rem;
+}
+.sub-header {
+    margin-bottom: 1.7rem;
+}
+
+.forms {
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+input {
+    padding: .5rem;
+    border-radius: 5px;
+}
+
+/* ####### MAIN ###### */
 
